@@ -16,7 +16,7 @@ We made some We adapted the source code for the use of the algorithm on the _ciq
 
 The `MergingCRSP` is to merge the _disclosed_ supply chain relations data with scores we calculated before, constructing one meta data we shall use.
 
-The `MergingFactset` is to merge the supply chain relations data from _Factset_ with the same scores, as well as the _S&P_ ESG scores, constructing another meta data we shall use.
+The `MergingFactset` is to merge the supply chain relations data from _Factset_ with the same scores, as well as the _S&P_ ESG scores, constructing another meta data we shall use. It also contains some summary statistics.
 
 The `FuzzyMatch` is for company name fuzzy match, which allow us to link the factset company names with crsp, compustat and etc.
 
