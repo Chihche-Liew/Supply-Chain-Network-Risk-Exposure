@@ -7,12 +7,12 @@ require(bizdays)
 require(lfe)
 require(stargazer)
 
-setwd("D:/SupplyChainRiskExposure")
+setwd()
 
 n_pull <- -1
 
-wrds_user <- "lzy2lzz"
-wrds_password <- "playerpassword"
+wrds_user <- ""
+wrds_password <- ""
 
 # load data
 wrds <- dbConnect(Postgres(),
