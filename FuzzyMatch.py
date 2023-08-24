@@ -7,7 +7,7 @@ import cleanco
 import multiprocessing
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
-db = wrds.Connection(wrds_username='lzy2lzz')
+db = wrds.Connection()
 duckdb.default_connection.execute("SET GLOBAL pandas_analyze_sample=100000")
 
 factset_sc = pd.read_csv('./supply_chain/factset_sc.csv')
