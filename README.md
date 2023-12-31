@@ -1,4 +1,4 @@
-Project in BC with Miao Liu and Yang Cao. For a new paper.
+Co-author paper with Miao Liu and Yang Cao.
 
 # Risk Exposure Score Calculating Based on Transcripts
 
